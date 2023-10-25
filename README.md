@@ -10,10 +10,6 @@ This project leverages machine learning to predict house prices based on the are
 
 ## Usage
 
-**Requirements:** Ensure you have Python, joblib, and the required libraries installed. You can install them using the provided requirements.txt file.
-
-## Usage
-
 1. **Requirements**: Ensure you have Python, `joblib`, and the required libraries installed. You can install them using the provided `requirements.txt` file.
 
     ```bash
