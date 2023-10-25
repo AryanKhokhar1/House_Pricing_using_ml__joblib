@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'price_predict'
+    'price_predict.apps.PricePredictConfig'
 ]
 
 MIDDLEWARE = [

@@ -19,6 +19,6 @@ from django.urls import path
 import price_predict.views as views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('', views.home),
     path("price_prediction", views.price_predictions)
 ]
