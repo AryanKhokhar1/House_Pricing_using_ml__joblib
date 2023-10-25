@@ -15,7 +15,11 @@
             <button type="submit">Predict Price</button>
         </form>
         <div class="result">
-            <p>Predicted Price: $<span id="predicted_price"> Value </span></p>
+            {% if price %}
+            <p>Predicted Price: Ruppess<span id="predicted_price"> 
+                {{price}}
+            </span></p>
+            {% endif %}
         </div>
     </div>
 </body>
